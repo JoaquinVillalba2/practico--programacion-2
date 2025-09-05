@@ -3,36 +3,45 @@
 
 from cancion import Cancion
 
+print("ejercicio 2")
 
-c1=Cancion("Me vas a estrañar ",129 ,"Cumbia Villera")
-
-
-c2=Cancion("Goteo " ,185, "Trap")
-
-
-c3=Cancion("Felices los 4" ,229, "Reggeton")
+c1=Cancion("Me vas a extrañar", 129, "Cumbia Villera")
+        
 
 
- #  EJERCICIO 3 
-                              
-
-print (c1 .obtenerNombre () , "-", c1.obtenerGenero())
+c2=Cancion("Felices los 4 ",  229, "Reggaeton") 
+        
 
 
-print (c2 .obtenerNombre () , "-", c2.obtenerGenero())
+c3= Cancion("Goteo",   185, "Trap"  )
+        
 
 
 
+print (c1 .obtenerNombre())
 
-print (c3 .obtenerNombre () , "-", c3.obtenerGenero())
+print (c2 .obtenerNombre())
 
-
-
-# EJERCICIO 4
-
-
-c2.establecerGenero("Rock")
+print (c3 .obtenerNombre())
 
 
 
-print ("Nuevo genero  de Goteo " ,c2.obtenerGenero())
+
+print(" Ejercicio 3")
+
+print (c1.obtenerGenero())
+
+print (c2.obtenerGenero())
+
+print (c3.obtenerGenero())
+
+
+
+print("ejercicio4")
+
+c3.establecerGenero("Rock")
+
+
+
+print ("Nuevo genero  de Goteo es" ,c3.obtenerGenero())
+
