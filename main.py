@@ -1,9 +1,11 @@
 
-# EJERCICIO 2 
+
 
 from cancion import Cancion
 
-print("ejercicio 2")
+
+print("\nejercicio 2")
+
 
 c1=Cancion("Me vas a extrañar", 129, "Cumbia Villera")
         
@@ -25,9 +27,8 @@ print (c2 .obtenerNombre())
 print (c3 .obtenerNombre())
 
 
+print("\nEjercicio 3")
 
-
-print(" Ejercicio 3")
 
 print (c1.obtenerGenero())
 
@@ -36,8 +37,7 @@ print (c2.obtenerGenero())
 print (c3.obtenerGenero())
 
 
-
-print("ejercicio4")
+print("\nejercicio 4")
 
 c3.establecerGenero("Rock")
 
